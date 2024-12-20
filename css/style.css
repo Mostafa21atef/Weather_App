@@ -1,0 +1,121 @@
+body{
+    background-color: #1E202B;
+}
+nav{
+    height: 120px;
+    background-color: #262936;
+}
+.navbar-brand{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+  font-size: 40px;
+}
+.nav-link{
+    border-radius: 30px;
+    transition:all 0.5s;
+color: white;
+}
+.nav-link:hover{
+    border: solid 1px black;
+    background-color: white;
+    color: black;
+}
+
+.home .container{
+    width:70%;
+}
+.home input{
+    border-radius: 20px;
+    height: 55px;
+}
+.home input{
+    border-radius: 20px;
+    height: 50px;
+    border: none;
+    padding: 10px;
+}
+.home input::placeholder{
+    font-size: 15px;
+}
+.home input:focus{
+    outline: none;
+}
+
+.home .container .find-location{
+  position: relative;
+}
+.home .container .find{
+    position: absolute;
+    right: 10px;
+    top:32px;
+    width:90px;
+    height: 35px;
+    background-color: transparent;
+    color: white;
+    border:none;
+    }
+
+.myCurrent{
+    width:400px;
+    height: 380px;
+    background-color: #171b50c9;
+}
+.today-city{
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+.current-header{
+    background-color: #09113b;
+    height: 50px;
+}
+.temp{
+    font-size: 70px;
+}
+
+.forecast-city{
+    font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.container2{
+    width: 80%;
+    margin: auto;
+}
+
+.find-location{
+    position: relative;
+  }
+ .subscribeC{
+      position: absolute;
+      right: 10px;
+      top:32px;
+      width:90px;
+      height: 35px;
+  
+      color: white;
+      border:none;
+ }
+footer{
+    background-color:#262936 ;
+}
+.inner input{
+    background-color: #1E202B;
+    color: white;
+    border-style: none;
+}
+.inner input::placeholder{
+    color: white;
+}
+.inner input:focus{
+    color: white;
+    background-color: #1E202B;
+   border-color: black;
+}
+.social .icon{
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+}
+.social .icon:hover{
+   color: blue;
+}
